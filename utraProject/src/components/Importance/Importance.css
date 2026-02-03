@@ -1,0 +1,54 @@
+.importance-section {
+  padding: 80px 0 0 0;
+  background: white;
+}
+
+.importance-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  padding: 0 5%;
+}
+
+.importance-text h2 {
+  font-size: 2.2rem;
+  color: #1e3a8a;
+  margin-bottom: 40px;
+}
+
+.point-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.icon-check { color: #22c55e; flex-shrink: 0; }
+.point-item h3 { margin: 0 0 5px 0; font-size: 1.1rem; color: #1e3a8a; }
+.point-item p { margin: 0; color: #64748b; font-size: 0.95rem; }
+
+/* Alarm Card */
+.alarm-card {
+  background: #334155;
+  border-radius: 24px;
+  padding: 40px;
+  color: white;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.icon-trend { color: #fbbf24; margin-bottom: 20px; }
+.alarm-stat { margin-bottom: 25px; }
+.alarm-value { font-size: 2rem; font-weight: bold; display: block; }
+.alarm-stat p { font-size: 0.9rem; opacity: 0.9; margin: 5px 0 0 0; }
+
+/* CTA Banner Bottom */
+.cta-banner {
+  background: linear-gradient(90deg, #0ea5e9 0%, #2563eb 100%);
+  padding: 60px 5%;
+  text-align: center;
+  color: white;
+}
+
+.cta-banner h2 { font-size: 2rem; margin-bottom: 15px; }
+.cta-banner p { margin-bottom: 30px; opacity: 0.9; }
